@@ -19,7 +19,12 @@ body {
   color: #51abff;
 }
 
-@media (max-width: 350px) {
+@media (min-width: 320px) {
+  html,
+  body {
+    height: 100%;
+  }
+
   .container-main {
     margin: auto;
     width: 100%;
