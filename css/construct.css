@@ -8,6 +8,34 @@
   color: #51abff;
 }
 
+.ToPageProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3%;
+}
+
+.ToPageProjects button {
+  cursor: pointer;
+  padding: 1%;
+  border: none;
+  border-radius: 14px;
+}
+
+.ToPageProjects button:nth-child(1) {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #d6000d;
+}
+
+.ToPageProjects button:nth-child(2) {
+  margin-left: 1%;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #D2872C;
+}
+
 @media (min-width: 320px) {
   html,
   body {
