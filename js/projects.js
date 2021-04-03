@@ -1,2 +1,2 @@
-window.location.href = "../../projects/AmazingGraph/index.html"
-window.location.href = "../../projects/codar/index.html"
+window.location.href = "../../projects/AmazingGraph/amazing.html"
+window.location.href = "../../projects/codar/codar.html"
