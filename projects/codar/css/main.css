@@ -1,0 +1,287 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - var(--height-header));
+}
+
+main .initial {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .initial .container-image {
+  height: 80%;
+}
+
+main .initial .container-image img {
+  height: 100%;
+}
+
+main .initial .descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+}
+
+main .initial .descriptions .information p {
+  font-size: 2rem;
+  color: var(--text);
+}
+
+main .initial .descriptions .information h1 {
+  font-size: 4.5rem;
+  color: var(--primary-color);
+}
+
+main .initial .descriptions .btn-resquest-quote {
+  cursor: pointer;
+  margin-top: 3rem;
+  width: 60%;
+  padding: 1.2rem 0;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+main .container-benefits {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+main .container-benefits .benefits {
+  height: 70%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .container-benefits .benefits ul {
+  display: flex;
+  flex-direction: column;
+}
+
+main .container-benefits .benefits ul li {
+  display: flex;
+  align-items: center;
+  margin: .4rem 0;
+}
+
+main .container-benefits .benefits ul li i {
+  margin-right: 1rem;
+  font-size: 2.4rem;
+  color: var(--primary-color);
+}
+
+main .container-benefits .benefits ul li span {
+  color: var(--text);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+main .container-benefits .benefits .container-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+main .container-benefits .benefits .container-contact h3 {
+  font-size: 2rem;
+}
+
+main .container-benefits .benefits .container-contact .send-user {
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5rem;
+}
+
+main .container-benefits .benefits .container-contact .send-user input {
+  width: 45%;
+  height: 4rem;
+
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 5px;
+}
+
+main .container-benefits .benefits .container-contact .send-user button {
+  cursor: pointer;
+  width: 45%;
+  height: 4rem;
+
+  font-size: 1.4rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+
+  border: none;
+  border-radius: 7px;
+}
+
+main .container-benefits .container-image {
+  height: 70%;
+}
+
+main .container-benefits .container-image img {
+  height: 100%;
+}
+
+main .container-feedback {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-bottom: 4rem;
+}
+
+main .container-feedback .user-feedback {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  padding: 1rem;
+  background-color: #dcdcdc;
+  border-radius: 15px;
+}
+
+main .container-feedback .user-feedback .user-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+main .container-feedback .user-feedback .user-content .image-user {
+  display: flex;
+}
+
+main .container-feedback .user-feedback .user-content .image-user span {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+main .container-feedback .user-content .content {
+  font-size: 1.2rem;
+}
+
+main .container-feedback .user-content .content p {
+  color: var(--text);
+  max-width: 390px;
+}
+
+main .container-feedback .user-content .maria p {
+  color: var(--text);
+  max-width: 380px;
+}
+
+main .container-feedback .user-content .content h4 {
+  margin-top: .2rem;
+  font-size: 1.5rem;
+}
+
+main .container-feedback .user-content .content span {
+  font-weight: bold;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+}
+
+footer .container-main-footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+footer .container-codar {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container-codar h1 {
+  font-size: 3.4rem;
+  font-style: italic;
+  color: var(--white);
+}
+
+footer .container-codar span {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: var(--text-footer);
+}
+
+footer .container-about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.4rem;
+}
+
+footer .container-about h5 {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+footer .container-about span {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: var(--text-footer);
+}
+
+footer .container-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.4rem;
+}
+
+footer .container-contact h5 {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+footer .container-contact span {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: var(--text-footer);
+}
+
+footer .container-contact span:nth-last-child(1) {
+  text-decoration: underline;
+}
+
+
+footer .container-network {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.4rem;
+}
+
+footer .container-network h5 {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+footer .container-network .content-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+footer .container-network .content-icons i {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 3rem;
+}
