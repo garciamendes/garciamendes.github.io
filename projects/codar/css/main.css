@@ -12,7 +12,7 @@ main .initial {
 }
 
 main .initial .container-image {
-  height: 60%;
+  height: 50%;
 }
 
 main .initial .container-image img {
@@ -24,15 +24,17 @@ main .initial .descriptions {
   flex-direction: column;
   justify-content: center;
   height: 75%;
+  width: 40%;
+  margin-left: 5%;
 }
 
 main .initial .descriptions .information p {
-  font-size: 1.7rem;
+  font-size: 16px;
   color: var(--text);
 }
 
 main .initial .descriptions .information h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: var(--primary-color);
 }
 
@@ -40,29 +42,29 @@ main .initial .descriptions .btn-resquest-quote {
   cursor: pointer;
   margin-top: 4%;
   width: 60%;
-  padding: 5% 0;
-  font-size: 1.7rem;
+  padding: 3% 0;
+  font-size: 19px;
   border: none;
-  border-radius: 14px;
+  border-radius: 10px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   color: var(--white);
   background-color: var(--primary-color);
 }
 
 main .container-benefits {
-  height: 100%;
+  height: 75%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 3%;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 
 main .container-benefits .benefits {
-  height: 70%;
-  width: 35%;
+  height: 100%;
+  width: 45%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 main .container-benefits .benefits ul {
@@ -73,30 +75,31 @@ main .container-benefits .benefits ul {
 main .container-benefits .benefits ul li {
   display: flex;
   align-items: center;
-  margin: 1% 0;
+}
+main .container-benefits .benefits ul li:not(:nth-child(1)) {
+  margin-top: 2%;
 }
 
 main .container-benefits .benefits ul li i {
   margin-right: 2%;
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: var(--primary-color);
 }
 
 main .container-benefits .benefits ul li span {
   color: var(--text);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
 main .container-benefits .benefits .container-contact {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
   width: 100%;
 }
 
 main .container-benefits .benefits .container-contact h3 {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
 }
 
 main .container-benefits .benefits .container-contact .send-user {
@@ -109,8 +112,8 @@ main .container-benefits .benefits .container-contact .send-user input {
   width: 45%;
   height: 70px;
 
-  padding: 0 2%;
-  font-size: 1.6rem;
+  padding: 0 3%;
+  font-size: 1.3rem;
   color: var(--primary-color);
 
   background-color: #dcdcdc;
@@ -121,18 +124,15 @@ main .container-benefits .benefits .container-contact .send-user input {
 main .container-benefits .benefits .container-contact .send-user button {
   cursor: pointer;
   width: 45%;
-  height: 70px;
-
-  font-size: 1.5rem;
-  color: var(--white);
-  background-color: var(--primary-color);
-
+  font-size: 1.3rem;
   border: none;
   border-radius: 7px;
+  color: var(--white);
+  background-color: var(--primary-color);
 }
 
 main .container-benefits .container-image {
-  height: 70%;
+  height: 100%;
 }
 
 main .container-benefits .container-image img {
@@ -143,14 +143,14 @@ main .container-feedback {
   display: flex;
   justify-content: space-evenly;
   height: 100%;
-  margin-bottom: 5%;
+  margin: 5% 0;
 }
 
 main .container-feedback .user-feedback {
   display: flex;
   justify-content: center;
-  width: 30%;
-  padding: 2%;
+  width: 37%;
+  padding: 1%;
   background-color: #dcdcdc;
   border-radius: 15px;
 }
@@ -163,6 +163,7 @@ main .container-feedback .user-feedback .user-content {
 
 main .container-feedback .user-feedback .user-content .image-user {
   display: flex;
+  margin-right: 3%;
 }
 
 main .container-feedback .user-feedback .user-content .image-user span {
@@ -203,7 +204,7 @@ footer {
   background-color: #333;
 }
 
-footer .container-main-footer{
+footer .container-main-footer {
   display: flex;
   justify-content: space-around;
   margin: 2%;
@@ -215,14 +216,14 @@ footer .container-codar {
 }
 
 footer .container-codar h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-style: italic;
   color: var(--white);
 }
 
 footer .container-codar span {
   margin-top: 7%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--text-footer);
 }
 
@@ -240,6 +241,7 @@ footer .container-about h5 {
 footer .container-about span {
   margin-top: 1%;
   font-size: 1.4rem;
+  max-width: 260px;
   color: var(--text-footer);
 }
 
@@ -250,7 +252,7 @@ footer .container-contact {
 }
 
 footer .container-contact h5 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: var(--white);
 }
 
@@ -261,13 +263,12 @@ footer .container-contact span {
 }
 
 footer .container-contact span:not(:nth-child(1)) {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 footer .container-contact span:nth-last-child(1) {
   text-decoration: underline;
 }
-
 
 footer .container-network {
   display: flex;
@@ -276,18 +277,18 @@ footer .container-network {
 }
 
 footer .container-network h5 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--white);
 }
 
 footer .container-network .content-icons {
   display: flex;
   justify-content: space-around;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 footer .container-network .content-icons i {
   cursor: pointer;
   color: var(--primary-color);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }

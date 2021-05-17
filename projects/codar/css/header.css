@@ -8,19 +8,19 @@ header {
 header .back-and-logo {
   display: flex;
   align-items: center;
-  margin-left: 3%;
+  margin-left: 1%;
 }
 
 header .back-and-logo .logo {
-  margin-left: 3rem;
+  margin-left: 10px;
   font-style: italic;
   color: var(--primary-color);
-  font-size: 2.6rem;
+  font-size: 25px;
 }
 
 header .back-and-logo i {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 20px;
   color: var(--primary-color);
 }
 
@@ -44,10 +44,9 @@ header nav ul {
 header nav ul li {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   height: 100%;
   width: 100%;
-  font-size: 1.6rem;
+  font-size: 18px;
 }
 
 header nav ul li a {
@@ -57,7 +56,7 @@ header nav ul li a {
   height: 100%;
   width: 100%;
   color: var(--text);
-  transition: 0.3s;
+  transition: .24s;
 }
 
 header nav ul li a:hover {
@@ -66,10 +65,8 @@ header nav ul li a:hover {
   align-items: center;
   height: 70%;
   width: 100%;
-  border-radius: 15px;
-  color: var(--white);
-  background-color: var(--primary-color);
-  box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+  border-bottom: 2px solid var(--primary-color);
+  background-color: none;
 }
 
 header nav .login-user {
@@ -81,7 +78,7 @@ header nav .login-user {
   width: 30%;
   height: 50px;
   border-radius: 14px;
-  font-size: 1.5rem;
+  font-size: 18px;
   color: var(--white);
   background-color: var(--primary-color);
   box-shadow: 0 0 30px rgba(0, 0, 0, .2);
